@@ -7,22 +7,19 @@
     <meta charset="UTF-8">
     <title>PHP Opdrachten</title>
     <style>
-
+        body {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
 <?php
-$aantal = 2;
-$leden = 5;
-$img = array("zwemclubs.jpg");
-
-if($aantal == $leden) {
-    $leden = $img;
-
-    foreach ($img as $zwemclub)
-    echo "<img src='img/".$zwemclub."'>";
+for($i = 0; $i <=98; $i++) {
+    for($j = 0; $j<$i; $j++){
+        echo "*";
+    }
+    echo "*<br>";
 }
-
 ?>
 </body>
 </html>
