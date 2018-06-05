@@ -7,7 +7,6 @@
     <meta charset="UTF-8">
     <title>PHP Opdrachten</title>
     <style>
-
     </style>
 </head>
 <body>
