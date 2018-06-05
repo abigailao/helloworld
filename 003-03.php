@@ -1,5 +1,5 @@
 <?php
-
+//OPDRACHT: CONTROLESTRUCTUREN EN LOOPS - VAN WHILE NAAR FOR-LOOP
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +23,6 @@
 for($x = 35; $x>=25 ;$x--) {
     echo "hoppelepee";
 }
-
 
 ?>
 </body>
