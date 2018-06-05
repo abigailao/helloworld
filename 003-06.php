@@ -1,5 +1,5 @@
 <?php
-
+//OPDRACHT: CONTROLESTRUCTUREN EN LOOPS - ZWEMCLUBS
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,14 +25,10 @@ foreach ($zc as $label => $aantal){
     echo '<br>'. $label.$aantal;
     //the break before the ego sets the images next to the text & Breaks a new line for the next sentences.
 
-    for($i=0; $i<$aantal/5;$i++){
+    for($i=0; $i<floor($aantal/5);$i++){
         echo "<img src='img/overig/zwemclubs.jpg'>";
     }
 }
-
-//$a = array(1,5,66,"truus");
-//echo $a[0]."<br>";
-//echo $a[2];
 
 ?>
 </body>
