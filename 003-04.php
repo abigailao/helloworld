@@ -1,5 +1,5 @@
 <?php
-
+//OPDRACHT: CONTROLESTRUCTUREN EN LOOPS - CONDITIES EN MODULUS
 ?>
 <!DOCTYPE html>
 <html lang="en">
